@@ -50,24 +50,7 @@ const Avatar: React.FC<AvatarProps> = ({ user }) => {
             md:w-3
           "
         />
-      ) : (
-        <span
-          className="
-        absolute 
-        block 
-        rounded-full 
-        bg-gray-400 
-        ring-2 
-        ring-white 
-        top-0 
-        right-0
-        h-2 
-        w-2 
-        md:h-3 
-        md:w-3
-      "
-        />
-      )}
+      ) : null}
     </div>
   );
 };
